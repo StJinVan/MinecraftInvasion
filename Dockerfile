@@ -15,7 +15,7 @@ RUN adduser -D minecraft && \
     mkdir -p /minecraft/world && \
     mkdir -p /minecraft/cfg && \
     mkdir -p /minecraft/backups &&\
-    wget -c "https://addons-origin.cursecdn.com/files/2408/77/Invasion 1.0.7 Server.zip" -O server.zip && \
+    wget -c "https://addons-origin.cursecdn.com/files/2408/77/Invasion 1.0.8 Server.zip" -O server.zip && \
     unzip server.zip && \
     chmod u+x *.sh && \
     echo "eula=true" > /minecraft/eula.txt && \
